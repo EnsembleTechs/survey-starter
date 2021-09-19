@@ -1,10 +1,8 @@
-import MyForm from './MyForm'
+import MainForm from "./components/MainForm"
 
 function App() {
   return (
-    <div className="App">
-      <MyForm />
-    </div>
+      <MainForm />
   )
 }
 

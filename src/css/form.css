@@ -1,0 +1,138 @@
+.multi{
+    margin-left: 33px;
+    margin-top: -8px;
+    width: 46%;
+    
+}
+
+.labelInput{
+    margin-top: 10px;
+}
+
+.switch1 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch1 {
+    position: relative;
+    display: inline-block;
+    min-width: 68px;
+    height: 26px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+.switch1Selected {
+    position: relative;
+    display: inline-block;
+    width: 166px;
+    height: 26px;
+    margin-left: 15px;
+    margin-right: 26px;
+    margin-top: 9px;
+}
+
+.slider1 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider1:before {
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 18px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.switch1 input:checked + .slider1 {
+    background-color: #63b3ed !important;
+}
+
+.switch1 input:checked + .slider1:before {
+    transform: translatex(26px) !important;
+}
+
+.switch1 input:focus + .slider1 {
+    box-shadow: 0 0 1px #63b3ed !important;
+}
+
+.dates{
+    border: 1px solid #dedede;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 24px;
+}
+
+.dates2{
+    border: 1px solid #dedede;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.headerInfo{
+    margin-left: -23px;
+}
+
+.crossIcon{
+    margin-top: 13px;
+    margin-left: 6px;
+}
+
+.items{
+    background: #40a0e6;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.initial-items{
+    background: #9ca6ad;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    cursor: not-allowed;
+}
+
+.links{
+    color: white !important;
+}
+
+.address{
+    & input{
+    }
+}
+
+.mobile_multi{
+    width: 40%;
+}
+
+.select{
+    width: 98%;
+}
+
+.mobileDate{
+    width: 49%;
+    margin-left: 13px;
+}
+
+.mobile-date{
+    border: 1px solid #dedede;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 24px;
+    width: 75%;
+}
